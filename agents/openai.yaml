@@ -1,0 +1,14 @@
+interface:
+  display_name: Carousel for IG
+  short_description: Build branded Instagram carousels
+  default_prompt: Use $carousel-for-ig to turn an idea into a researched, branded
+    Instagram carousel draft for review.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
