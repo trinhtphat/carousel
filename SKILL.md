@@ -1,129 +1,161 @@
 ---
 name: carousel-for-ig
-description: Create, refine, and package branded Instagram carousels from an idea or trend. Use for Instagram carousel strategy, trend research, editorial storytelling, storyboard planning, visual-system decisions, slide-by-slide copy, Canva-ready drafts, caption options, and final export QA—especially for Phat Trinh’s F&B, cocktail, bartender education, and personal-brand content.
+description: Turn a raw idea, trend, brand brief, or source document into a researched, branded, reviewable Instagram carousel and final publishing package. Use for trend discovery, angle selection, audience and learning-outcome definition, slide storyboarding, editorial visual direction, Canva-ready copy, revision control, captions, accessibility text, export QA, packaging, and post-performance learning—especially for Phat Trinh’s F&B, cocktail, bartender education, and personal-brand content.
 ---
 
 # Carousel for IG
 
-Build an Instagram carousel as an editorial content product: useful to the audience, visually coherent, recognisably personal, and ready for manual publishing or later automation.
+Create an Instagram carousel as an editorial product, not a stack of attractive slides. Make the audience value, narrative, visual system, review state, and final files explicit.
 
-## Operating rules
+## Core rules
 
 - Address the user as “anh” and communicate in Vietnamese unless another language is requested.
-- Treat the user’s idea as raw material, not as a final angle.
-- Research current trends and verify time-sensitive claims when research is requested or needed.
-- Separate observed trends, sourced facts, and personal interpretation.
-- Prefer a clear, saveable lesson over a list of disconnected facts.
-- Do not overclaim expertise, present uncertain trends as certainty, or turn educational content into aggressive advertising.
-- Never mark a carousel final without the user’s approval.
+- Treat the initial idea as raw material. Test its usefulness before committing to it.
+- Define the audience and what they will learn before writing the storyboard.
+- Distinguish sourced facts, observed signals, and personal interpretation.
+- Use current research for trends and other time-sensitive claims.
+- Avoid absolute trend predictions, inflated expertise, and obvious brand advertising.
+- Show a draft before final production.
+- Revise only the requested scope unless the user asks for a full rethink.
+- Never call an asset final or publish it without explicit approval.
+- Verify exported files by opening or decoding them; filenames and dimensions alone are insufficient.
+
+## Read supporting references
+
+- Read [references/production-workflow.md](references/production-workflow.md) before creating a full carousel or designing an automation.
+- Read [references/qa-checklist.md](references/qa-checklist.md) before reviewing, exporting, packaging, or publishing.
+- Read [references/case-study-global-cocktail-trends.md](references/case-study-global-cocktail-trends.md) when the task resembles trend-led F&B education or when diagnosing repetition, weak audience value, visual inconsistency, or packaging errors.
 
 ## Workflow
 
-### 1. Clarify the brief
+### 1. Build the brief
 
-Extract or ask for:
+Extract or ask only what is necessary:
 
-- Topic or raw idea.
-- Audience.
-- Platform and format; default to Instagram carousel.
-- Desired language; default to UK English for English posts.
-- Brand, product, or personal-brand role.
-- Desired tone: personal observation, personal learning, or humble discussion.
-- Whether the user wants research, a draft, visual direction, Canva execution, or a final package.
+- Raw topic or idea.
+- Target audience.
+- Audience learning outcome.
+- Primary objective: educate, save, share, discuss, or convert.
+- Brand or personal-brand role.
+- Tone and language.
+- Desired slide count and deliverable stage.
+- Source materials, claims, packshots, logos, and mandatory brand rules.
 
-If important information is missing, ask only the smallest number of questions needed. If the user asks to see a draft, produce the draft before asking for unnecessary setup details.
+Write a one-sentence brief contract:
 
-### 2. Find the strongest content angle
+> Create a [slide count]-slide carousel for [audience] so they can [learning outcome], using [tone] and [brand role].
 
-For trend-led topics:
+If the learning outcome is vague, stop and improve the brief before drafting.
 
-1. Identify the relevant current conversations and credible sources.
-2. Group repeated signals into a small number of distinct themes.
-3. Remove themes that overlap, lack audience value, or cannot be shown clearly.
-4. Score each remaining theme for audience fit, educational value, visual potential, originality, and brand fit.
-5. Recommend one angle and briefly explain why it is stronger.
+### 2. Research and select the angle
 
-Use personal-observation framing when appropriate, such as “shifts I’m starting to notice in cocktail menus,” rather than absolute claims about what will define the entire industry.
+For trend-led content:
 
-### 3. Design the carousel structure
+1. Gather recent, credible signals and note publication dates.
+2. Separate facts from interpretation.
+3. Cluster repeated signals into distinct themes.
+4. Remove themes that repeat earlier posts, overlap each other, lack audience value, or have weak visual potential.
+5. Score the remaining angles for audience fit, educational value, originality, visual potential, source strength, and brand fit.
+6. Recommend one angle and explain why it deserves a carousel.
 
-Default to a concise 5–10 slide structure:
+Prefer grounded framing such as “shifts I’m starting to notice” over “trends that will define the industry.”
 
-1. Cover: one clear promise or tension.
-2. Context: explain what the viewer will learn.
-3. Trend or idea slides: one idea per slide, with a concrete explanation.
-4. Application: show how the idea could translate into a menu, serve, workflow, or decision.
-5. Closing: recap, save/share prompt, or discussion question.
+### 3. Design the narrative
 
-For each slide, provide:
+Use 5–10 slides by default:
 
-- Slide number.
+1. Cover: a specific promise, tension, or curiosity gap.
+2. Context: what is changing and why it matters.
+3. Core ideas: one distinct lesson per slide.
+4. Application: translate the lesson into a menu, serve, workflow, or decision.
+5. Closing: recap, checklist, save/share prompt, or discussion question.
+
+For every slide specify:
+
+- Slide number and role.
 - Headline.
 - Supporting copy.
 - Visual direction.
-- Optional source or fact note.
-- The intended takeaway.
+- Intended takeaway.
+- Source note when needed.
 
-Do not force a fixed number of trends. Use fewer, stronger themes when the ideas overlap.
+Do not force a predetermined number of trends. Keep fewer, stronger ideas when themes overlap.
 
-### 4. Apply the visual system
+### 4. Define the visual system
 
-For the established editorial cocktail template, use:
+For the established cocktail-editorial system, default to:
 
-- 4:5 Instagram format, 1080 × 1350 px.
+- Instagram portrait 4:5 at 1080 × 1350 px.
 - Off-white paper background.
 - Black serif headline typography.
 - Large persimmon trend numbers.
-- Wasabi accent used sparingly.
-- Bright premium studio photography or clean editorial still life.
-- Generous negative space and consistent title placement.
-- Full cocktail glass and garnish; do not crop important product details.
-- Consistent lighting, colour grading, margins, and hierarchy across slides.
+- Wasabi accents used sparingly.
+- Bright premium studio photography or editorial still life.
+- Generous negative space and stable title placement.
+- Full glass, garnish, and product details without accidental cropping.
+- Consistent margins, hierarchy, lighting, and colour grading.
 
-If the carousel is for another brand, preserve the structural logic but derive colours, typography, imagery, and product rules from that brand’s approved assets. Do not invent packshots, logos, or regulated claims.
+For another brand, preserve the structural logic but derive the palette, typography, packshots, logos, claims, and imagery from approved brand assets. Never invent regulated claims or alter packshots.
 
-### 5. Draft and review
+### 5. Deliver a reviewable draft
 
-Show a reviewable draft before final production. The draft must include:
+Always include:
 
-- Recommended angle.
-- Target audience and learning outcome.
+- Concept and recommended angle.
+- Target audience.
+- Learning outcome.
+- Why the idea is worth saving or sharing.
 - Slide-by-slide storyboard.
 - Visual system.
-- At least three caption options:
+- Three captions:
   1. Personal observation.
   2. Personal learning.
   3. Humble discussion.
-- Sources or research notes where claims are time-sensitive.
-- A short list of likely weaknesses or open decisions.
+- Research notes and uncertainty.
+- Specific decisions requiring approval.
 
-When revising, change only the requested parts unless the user asks for a full rethink. Check for repetition, weak transitions, text density, visual imbalance, inconsistent numbering, unsupported claims, and unclear audience value.
+Label the state clearly: DRAFT, REVISION, APPROVED, or FINAL.
 
-### 6. Finalise and package
+### 6. Revise with scope control
+
+Convert feedback into explicit change requests:
+
+- Content.
+- Narrative order.
+- Visual balance.
+- Typography.
+- Image or garnish.
+- Caption.
+- Whole concept.
+
+Preserve approved work. Do not rebuild untouched slides. After revision, report what changed and what remained locked.
+
+### 7. Finalise and package
 
 After approval:
 
-- Lock the approved slide order and copy.
-- Check every slide at 1080 × 1350 px.
-- Confirm the number of slides and filenames, using zero-padded order such as `01-cover.png`.
-- Check that no text touches the safe margins and no visual is unintentionally cropped.
-- Include the selected caption, alt text, sources, and a short upload note.
-- If files are created, present one clearly named package and do not mix draft and final assets.
+- Lock slide order and copy.
+- Export all slides at 1080 × 1350 px.
+- Open or decode every exported image.
+- Check safe margins, crop, hierarchy, colour, numbering, spelling, and slide continuity.
+- Name files with zero-padded order such as 01-cover.png.
+- Include the selected caption, alt text, sources, upload order, and posting notes.
+- Separate draft and final assets.
+- Create one clearly named final package.
 
-Do not publish to Instagram automatically unless the user explicitly requests that workflow and confirms the final approval step.
+Do not auto-publish unless the user explicitly requests it and confirms the final approval step.
 
-## Output template
+### 8. Learn after publishing
 
-Use this order when delivering a carousel draft:
+Record reach, likes, comments, shares, saves, profile visits, follows, and qualitative feedback. Compare performance with the stated objective. Use the result to improve the next angle, hook, depth, format, or CTA instead of judging only by likes.
 
-1. **Concept** — title, angle, objective, audience.
-2. **Why this works** — one short strategic explanation.
+## Output order
+
+1. **Concept** — title, angle, objective, audience, learning outcome.
+2. **Strategic rationale** — why this is distinct and relevant.
 3. **Storyboard** — slide-by-slide table.
-4. **Visual direction** — format, palette, typography, imagery, layout rules.
-5. **Caption options** — three options.
-6. **Research notes** — sources and uncertainty.
-7. **Review questions** — only decisions that require the user’s approval.
-
-## Example brief
-
-For a request about cocktail trends, do not immediately repeat a generic seven-trend list. First test whether the themes are distinct, then build a sharper editorial angle. A strong result may narrow the set to five themes such as Agave, Savoury Martini, Global Pantry, Classics Rewritten, and Sense of Place, provided each has a different lesson and visual language.
+4. **Visual direction** — format, palette, typography, imagery, layout.
+5. **Caption options** — three tonal options.
+6. **Research notes** — sources, dates, and uncertainty.
+7. **QA status** — checks passed, risks, and open decisions.
+8. **Approval request** — only the decisions the user must make.
