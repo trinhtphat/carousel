@@ -22,6 +22,7 @@ Create an Instagram carousel as an editorial product, not a stack of attractive 
 
 ## Read supporting references
 
+- Read [references/workflow-flowchart.md](references/workflow-flowchart.md) when explaining the process, designing automation, or checking approval gates.
 - Read [references/production-workflow.md](references/production-workflow.md) before creating a full carousel or designing an automation.
 - Read [references/qa-checklist.md](references/qa-checklist.md) before reviewing, exporting, packaging, or publishing.
 - Read [references/case-study-global-cocktail-trends.md](references/case-study-global-cocktail-trends.md) when the task resembles trend-led F&B education or when diagnosing repetition, weak audience value, visual inconsistency, or packaging errors.

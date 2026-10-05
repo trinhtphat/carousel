@@ -6,6 +6,33 @@
 
 Built from a real F&B carousel production workflow for Phat Trinh—not from a generic social-media template.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    A["Raw idea or trend"] --> B["Brief"]
+    B --> C{"Audience value clear?"}
+    C -- "No" --> B
+    C -- "Yes" --> D["Research and angle"]
+    D --> E{"Angle strong enough?"}
+    E -- "No" --> D
+    E -- "Yes" --> F["Storyboard and visual system"]
+    F --> G["DRAFT"]
+    G --> H{"User approval?"}
+    H -- "Revise" --> I["Scoped revision"]
+    I --> G
+    H -- "Approve" --> J["Final QA"]
+    J --> K{"QA passed?"}
+    K -- "No" --> J
+    K -- "Yes" --> L["Final package"]
+    L --> M{"Publish approved?"}
+    M -- "Not yet" --> N["READY TO PUBLISH"]
+    M -- "Yes" --> O["Publish and learn"]
+    O --> B
+```
+
+The detailed map includes pass conditions, failure routes and lifecycle states: [view the full workflow flowchart](references/workflow-flowchart.md).
+
 ## What this skill does
 
 | Stage | Result |
@@ -63,6 +90,7 @@ The skill includes a case study from the **Global Cocktail Trends** carousel. It
     ├── assets/
     │   └── icon.svg
     └── references/
+        ├── workflow-flowchart.md
         ├── production-workflow.md
         ├── qa-checklist.md
         └── case-study-global-cocktail-trends.md
@@ -73,6 +101,7 @@ The skill includes a case study from the **Global Cocktail Trends** carousel. It
 
 ## Included references
 
+- [Visual workflow and approval gates](references/workflow-flowchart.md)
 - [Complete production workflow](references/production-workflow.md)
 - [Final QA checklist](references/qa-checklist.md)
 - [Global Cocktail Trends case study](references/case-study-global-cocktail-trends.md)
