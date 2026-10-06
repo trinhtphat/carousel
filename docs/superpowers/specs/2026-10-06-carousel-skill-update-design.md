@@ -70,6 +70,22 @@ Add guidance for image generation and sourcing:
 - Never generate an imitation branded bottle or alter a supplied packshot.
 - Place authentic product visuals only where the narrative earns brand presence.
 
+### `references/carousel-trending-2026.html` and `references/design-system-2026.md`
+
+Use the user-supplied `Carousel Trending 2026.html` as the canonical colour and typography source for the skill:
+
+- Preserve the supplied HTML in the repository as an auditable source snapshot.
+- Extract a concise Markdown reference that the skill reads when deciding colour and typography.
+- Use the three defined typography roles: DM Serif Display for editorial display, Hanken Grotesk for body and heavy impact, and IBM Plex Mono for labels, numbering, and data.
+- Preserve the 1080 px type scale: hook 80–96 px, hook subtitle 36 px, body title 48–64 px, body copy 32–36 px, label or slide number 24 px, and CTA headline 72 px.
+- Apply the source rule that copy below 32 px should be shortened instead of reduced further.
+- Route palette choice through three project lanes:
+  - Warm Editorial: `#F0EEE9`, `#A47864`, `#6B7B3F`, `#C9B79C`, `#3D2C40`.
+  - High Contrast: `#0E7C7B`, `#F76C5E`, `#F9F7F3`, `#2B2B2B`, `#C6F06B`.
+  - Cool Authority: `#DCE7F2`, `#A9C6E8`, `#5A8FC7`, `#2E5E8C`, `#16324F`.
+- Treat these lanes as decision standards, not as one mandatory palette for every brand. Approved brand assets and explicit user choices override the default lane.
+- Use the same design tokens to improve the README visual hierarchy without copying the interactive page implementation.
+
 ### `references/qa-checklist.md`
 
 Add checks for:
@@ -128,7 +144,8 @@ Add realistic behavioural scenarios and expected decisions for:
 5. Review the rendered Markdown, links, YAML metadata, and Git diff.
 6. Confirm no file contains brand-specific trigger language.
 7. Confirm the README gallery uses stable repository assets and renders without broken images.
-8. Commit and push to `trinhtphat/carousel` on `main` after validation.
+8. Confirm the extracted design-system reference matches the supplied HTML tokens and type scale.
+9. Commit and push to `trinhtphat/carousel` on `main` after validation.
 
 ## Success Criteria
 
@@ -137,4 +154,5 @@ Add realistic behavioural scenarios and expected decisions for:
 - Canva drafts remain editable and require rendered preview approval before saving.
 - The workflow detects the concrete failures observed in the Mini Martini × Củ Kiệu project.
 - The README presents polished finished visuals without making the skill brand-specific.
+- Colour and typography decisions trace back to the supplied Carousel Trending 2026 reference.
 - The repository passes structural validation and the update is committed and pushed to GitHub.

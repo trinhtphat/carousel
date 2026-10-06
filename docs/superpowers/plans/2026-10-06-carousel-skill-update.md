@@ -18,11 +18,13 @@
 - Keep Canva typography editable by default and require rendered preview approval before saving.
 - Use only stable repository assets in the README; do not embed temporary Canva export URLs.
 - Preserve culturally specific ingredient or product names when the user requests it.
+- Use the supplied `Carousel Trending 2026.html` as the canonical source for default colour lanes and the 1080 px typography scale.
 
 ## Review Focus
 
 - Missing or expired Canva asset URLs must not leave broken README images; the validator checks only local `assets/showcase/*.png` paths.
 - Brand-specific case-study language must not leak into automatic skill discovery; tests inspect frontmatter and UI metadata.
+- Extracted palette values and type sizes must match the supplied HTML exactly; tests compare the Markdown reference with pinned tokens.
 - A language change must preserve approved local terms and exact user-supplied recipe copy; scenario coverage names this behavior.
 - Canva transaction expiry and wrong page order must have explicit recovery and verification guidance.
 - Typography must be judged from rendered phone-size previews, including literal newline markers and one-word columns.
@@ -40,7 +42,7 @@
 
 - [ ] **Step 1: Write the failing validator**
 
-Add tests named `test_required_files`, `test_generic_discovery_metadata`, `test_skill_routes_to_new_references`, `test_readme_uses_stable_showcase_assets`, and `test_showcase_pngs_are_valid`.
+Add tests named `test_required_files`, `test_generic_discovery_metadata`, `test_skill_routes_to_new_references`, `test_design_system_tokens`, `test_readme_uses_stable_showcase_assets`, and `test_showcase_pngs_are_valid`.
 
 - [ ] **Step 2: Run the validator to verify baseline failure**
 
@@ -65,12 +67,14 @@ git commit -m "test: define carousel skill package invariants"
 - Modify: `references/qa-checklist.md`
 - Create: `references/canva-production.md`
 - Create: `references/visual-asset-workflow.md`
+- Create: `references/carousel-trending-2026.html`
+- Create: `references/design-system-2026.md`
 - Create: `references/case-study-mini-martini-cu-kieu.md`
 - Create: `tests/scenarios.md`
 
 **Interfaces:**
-- Consumes: the approved design spec and existing production workflow.
-- Produces: a generic routing skill plus focused production, Canva, visual-asset, case-study, and behavioral-test references.
+- Consumes: the approved design spec, existing production workflow, and `C:/Users/Lenovo/Downloads/Carousel Trending 2026.html`.
+- Produces: a generic routing skill plus focused production, Canva, visual-asset, design-system, case-study, and behavioral-test references.
 
 - [ ] **Step 1: Update `SKILL.md`**
 
@@ -84,17 +88,21 @@ Add project variables, prompt-matrix guidance, language-preservation rules, exac
 
 Document editable Canva layers, transaction recovery, rendered-preview review, consistent image generation, negative space, authentic branded packaging, and story-earned brand presence.
 
-- [ ] **Step 4: Add the Mini Martini × Củ Kiệu case study and scenarios**
+- [ ] **Step 4: Preserve and extract the 2026 design-system reference**
+
+Copy the supplied HTML to `references/carousel-trending-2026.html`. Create `references/design-system-2026.md` with the exact font roles, type scale, three palette lanes, selection criteria, and the below-32-px copy rule.
+
+- [ ] **Step 5: Add the Mini Martini × Củ Kiệu case study and scenarios**
 
 Record reusable decisions without adding brand-specific triggers. Include expected behavior for glassware changes, language preservation, exact recipes, small typography, expired transactions, and wrong page order.
 
-- [ ] **Step 5: Run the validator**
+- [ ] **Step 6: Run the validator**
 
 Run: `python tests/validate_skill_package.py`
 
 Expected: still FAIL only for README showcase requirements.
 
-- [ ] **Step 6: Commit the workflow update**
+- [ ] **Step 7: Commit the workflow update**
 
 Run:
 
@@ -142,7 +150,7 @@ git commit -m "assets: add finished carousel showcase"
 
 - [ ] **Step 1: Add the hero and outcome summary**
 
-Lead with the reusable result and clarify that brands, ingredients, languages, and recipes are project inputs.
+Lead with the reusable result and clarify that brands, ingredients, languages, and recipes are project inputs. Apply the supplied Warm Editorial tokens and typography hierarchy to the README structure where GitHub Markdown permits it.
 
 - [ ] **Step 2: Add the finished-output gallery**
 
