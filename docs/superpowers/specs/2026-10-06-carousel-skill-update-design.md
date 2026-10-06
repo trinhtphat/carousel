@@ -94,6 +94,19 @@ Capture the reusable lessons from the completed project without turning its bran
 - Canva text containers sometimes ignored width changes, so concise copy and container reassignment were needed.
 - The closing slide had to be moved after the content slides and then verified.
 
+### `README.md` and showcase assets
+
+Turn the README into a visual landing page for the skill while keeping the repository generic:
+
+- Add a concise hero section that explains the outcome before the implementation details.
+- Add a finished-output gallery using selected carousel slides from the Mini Martini × Củ Kiệu case study.
+- Store stable preview images inside `assets/showcase/`; do not embed temporary Canva export URLs.
+- Use a cover, a content or recipe slide, and a closing slide to demonstrate narrative range.
+- Add short captions that explain what each visual demonstrates: hook, editable editorial hierarchy, and closing CTA.
+- Keep The Botanist and Củ Kiệu references inside the labelled case-study area, not in the skill name or trigger description.
+- Add a compact workflow diagram and a clear repository map below the showcase.
+- Verify every embedded image path and render the README locally before deployment.
+
 ### `tests/scenarios.md`
 
 Add realistic behavioural scenarios and expected decisions for:
@@ -114,7 +127,8 @@ Add realistic behavioural scenarios and expected decisions for:
 4. Run the official skill `quick_validate.py` validator.
 5. Review the rendered Markdown, links, YAML metadata, and Git diff.
 6. Confirm no file contains brand-specific trigger language.
-7. Commit and push to `trinhtphat/carousel` on `main` after validation.
+7. Confirm the README gallery uses stable repository assets and renders without broken images.
+8. Commit and push to `trinhtphat/carousel` on `main` after validation.
 
 ## Success Criteria
 
@@ -122,4 +136,5 @@ Add realistic behavioural scenarios and expected decisions for:
 - A future project can supply a different brand, product, language, glass, ingredient, palette, and recipe without editing the core skill.
 - Canva drafts remain editable and require rendered preview approval before saving.
 - The workflow detects the concrete failures observed in the Mini Martini × Củ Kiệu project.
+- The README presents polished finished visuals without making the skill brand-specific.
 - The repository passes structural validation and the update is committed and pushed to GitHub.
